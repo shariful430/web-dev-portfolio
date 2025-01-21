@@ -44,6 +44,9 @@
     font-size: 18px;
     color: #757575;
 }
+.text-center{
+    text-align:center;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -101,16 +104,30 @@ main{
     margin: 0 auto;
     
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 
 }
 .about-items{
     display: flex;
     justify-content: space-around;
     font-size: 20px;
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
